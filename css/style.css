@@ -1,3 +1,7 @@
+
+
+
+
 /*--------------------------------------footer*/
 
 .list-inline.social-links {
@@ -22,54 +26,17 @@
     font-size: 1.5em;
 }
 
-.navbar-nomargin {
-    margin-bottom: 0;
-}
+
+
 /*-------------------------------------image*/
 
-
-.hvr-curl-bottom-right {
-    display: block;
-    vertical-align: middle;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0,0,0,0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    position: relative;
+.portrait {
+    height: 80px;
+    width: 30px;
 }
 
-a {
-    color: #d2c8c0;
-}
 
-a {
-    background-color: transparent;
-}
-a {
-    color: #337ab7;
-    text-decoration: none;
-}
-a {
-    background-color: transparent;
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-user agent stylesheet
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.white {
-    color: #fff;
-}
-h2 {
+.h2 {
     font-family: "din-condensed-web",sans-serif;
     font-size: 32px;
     font-weight: 600;
@@ -78,34 +45,7 @@ h2 {
     text-transform: uppercase;
     line-height: 52px;
 }
-h2, .h2 {
-    font-size: 30px;
-}
-h1, .h1, h2, .h2, h3, .h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit;
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-user agent stylesheet
-h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
+
 
 
 
@@ -141,6 +81,49 @@ h2 {
   color: white;
 }
 
+h3 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 70px;
+}
+
+.overlay {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 300px;
+    width: 100%
+}
+
+.overlay2 {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 100px;
+    width: 100%
+}
+
+.overlay3 {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 115px;
+    width: 100%
+}
+
+h3 { 
+   position: absolute;
+   left: 0; 
+   width: 100%; 
+}
+
+.top-buffer1 {
+  margin-top: 60px;
+}
+
+.top-buffer2 {
+  margin-top: 120px;
+}
 /*-------------------------------------about us*/
 
 .column {
@@ -154,6 +137,13 @@ h2 {
   content: "";
   clear: both;
   display: table;
+}
+
+
+/*--------------------------------------music*/
+
+.top-buffer {
+  margin-top: 120px;
 }
 
 /*-------------------------------------video*/
@@ -203,5 +193,9 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+.style {
+    width: 100%;
+    height: fit-content;
+}
 
 

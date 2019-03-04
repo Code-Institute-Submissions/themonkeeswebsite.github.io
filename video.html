@@ -19,7 +19,7 @@
   
 <!--Menu-->
 
-<nav class="navbar navbar-default navbar-nomargin">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
 <div class="navbar-center">
       <ul class="nav navbar-nav">
@@ -41,11 +41,14 @@
   <h1>Videos</h1>
   </center>
   
-<div class="videocontainer">
-    <video class="embed-responsive-item" controls>
-   <source src="video/themonkees.mp4">
-</video>
-</div>
+<!-- 16:9 aspect ratio --> 
+<div class="embed-responsive embed-responsive-16by9"> 
+    <video width="320" height="240" controls>
+        <source src="video/themonkees.mp4" type="video/mp4">
+    </video>
+</div> 
+
+
 
 
 
