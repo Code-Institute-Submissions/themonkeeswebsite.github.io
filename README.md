@@ -108,22 +108,33 @@ able to get elements to respond to multiple devices as I planned.  Needless to s
 
 With regards to the manual testing, the following was done:
 
-Landing Page:
 Clicked on "About" in the scrolling menu
 Were taken to the About page successfully
 Clicked on "Home" in the static menu bar at the top and were taken back to the landing page successfully
-Clicked on "About" in the scrolling menu
-Were taken to the About page successfully
+Clicked on "Events" in the scrolling menu
+Were taken to the Events page successfully
+Scrolled successfully through the different months on the calendar in the Events page 
 Clicked on "Home" in the static menu bar at the top and were taken back to the landing page successfully
-
-Landing Page:
-Clicked on "About" in the scrolling menu
-Were taken to the About page successfully
+Clicked on "Music Videos" in the scrolling menu
+Were taken to the Music Video page successfully
+Clicked on each on of the album covers that you can see in the Music Video page and were successfuly 
+taken straight to YouTube where the relevant song automatically starts playing
 Clicked on "Home" in the static menu bar at the top and were taken back to the landing page successfully
+Clicked on "Book Event" in the scrolling menu
+Were taken to the Book Event page successfully
+Filled in my name, surname, contact details and details about the venue etc., and clicked submit
+The submit button works however the form was not submitted as it's not linked to a submit reference therefore an error message came up
+I have deliberately not linked the submit button to a submit reference as I don't have anywhere to send that informaton.
+Clicked on "Home" in the static menu bar at the top and were taken back to the landing page successfully
+Clicked on "Contact Us" in the scrolling menu
+Were taken to the Contact Us page successfully
+Filled in my name, surname, contact details and reason why I'm getting in touch and then clicked submit.
+The submit button works however the form was not submitted as it's not linked to a submit reference therefore an error message came up
+Clicked on "Home" in the static menu bar at the top and were taken back to the landing page successfully
+At the bottom of every single page there are three social media icons.  Facebook, Twitter, and YouTube.  I clicked on each of these
+in every single page and were successfully taken to the relevant social media pages.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
