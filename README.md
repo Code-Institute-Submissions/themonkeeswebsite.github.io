@@ -56,36 +56,70 @@ The "About" page has been created to provide historical backgroun on the band.  
 There are no special features on this page.  As with everyone of the other pages there is a static menu bar at the top of the page for easy navigation.
 There's also the three social media icons at the bottom of the page.
 
+### Events Page ###
+
+The Events Page is simple page designed so that users can see when and where events will be taking place.  
+The page incorporates a straight forward Google calendar plug-in to do this.  Please note that there are no active events in the calendar.
+As with everyone of the other pages there is a static menu bar at the top of the page for easy navigation.
+There's also the three social media icons at the bottom of the page.
+
+### Music Videos Page ###
+
+The Music Videos page is made up of a main heading followed by four pictures of album covers.  Each one of the album covers represents one of 
+the bands most famous songs.  When you click on an album cover you are taken directly to a YouTube page where the song will start playing.
+The idea is to add additional clickable album covers going forward so that we can include as many of the bands famous songs as possible.
+As with everyone of the other pages there is a static menu bar at the top of the page for easy navigation.
+There's also the three social media icons at the bottom of the page.
+
+### Book Event Page ###
+
+This is a straight forward page where users have the opportunity to get in touch with the band to book them for an event.  The "Book Event"
+page and the "Contact Us" page use the same code with a slight change on the Book Event page.  Here we as for the name, surname and event details.
+The submit button is functional however please note that an error will come up when clicking the submit button as it's not linked to an email address or submit reference.
+As with everyone of the other pages there is a static menu bar at the top of the page for easy navigation.
+There's also the three social media icons at the bottom of the page.
+
+### Contact Us Page ###
+
+This is a simple page where users have the opportunity to get in touch with the band.  As mentioned the "Contact Us" and "Book Event" page usethe same 
+code.  In the Contact Us page it asks for the name, surname and details of message.  The submit button is functional however please note that an error will come up when clicking the submit button as it's not linked to an email address or submit reference.
+As with everyone of the other pages there is a static menu bar at the top of the page for easy navigation.
+There's also the three social media icons at the bottom of the page.
 
 
+## Testing ##
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+As this is my very first project I am/was not aware of the availability of automated testing, nor am I au fait with how it works.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+For this reason all of my testing has been done manually over a couple of months, during the build and progression of my website.
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+To build my website I used a number of technologies:
+- Bootstrap 3.3.7
+- CSS
+- Font awesome
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The above mentioned are plug-ins I decided to use as not to reinvent the wheel.  As mentioned before I wanted to make as much of this
+website my work, rather than copying and pasting code from other websites, as I felt this would be the best way to learn.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+I designed the website with mobile first in mind.  This didn't always go as well as planned.  As and when I finished a particular
+part of the website I would use the inspect tool to see how it reacts to different screen sizes.  Sometimes I got it right first time
+around and often not.  It was probably one of the biggest frustrations I experienced during the creation of my website, not being
+able to get elements to respond to multiple devices as I planned.  Needless to say this has now been addressed.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+With regards to the manual testing, the following was done:
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Landing Page:
+Clicked on "About" in the scrolling menu
+Were taken to the About page successfully
+Clicked on "Home" in the static menu bar at the top and were taken back to the landing page successfully
+Clicked on "About" in the scrolling menu
+Were taken to the About page successfully
+Clicked on "Home" in the static menu bar at the top and were taken back to the landing page successfully
+
+Landing Page:
+Clicked on "About" in the scrolling menu
+Were taken to the About page successfully
+Clicked on "Home" in the static menu bar at the top and were taken back to the landing page successfully
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
